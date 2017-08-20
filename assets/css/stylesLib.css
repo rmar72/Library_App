@@ -1,0 +1,92 @@
+body{
+	background: #003973;
+	background: -webkit-linear-gradient(to left, #003973 , #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #003973 , #E5E5BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.jumbotron{
+	box-shadow: 0 0 5px rgba(0, 0, 0 , 0.7);
+
+}
+#searchArea{
+		border:1px solid silver;
+		background:#2980b9;
+		margin:40px 13px 0px 13px;
+		border-radius:3px;
+}
+#searchArea h3{
+	color:white;
+	font-size:30px;
+	font-weight:900;
+	margin:20px 30px;
+
+}
+#searchArea h3, #sTitles, #sAuthors, #miscArea{
+	display:inline-block;
+}
+
+#searchArea input[type~="text"]{
+	width:270px;
+	margin:0 0 3px 10px;
+}
+
+#miscArea {
+float:right;
+margin:0px 40px 0 0;
+padding:0;
+
+}
+
+.aBooks{
+	list-style:none;
+}
+
+.addMultiple{
+	width:80%;
+	height:50px;
+	font-size:30px;
+	background-color:rgba(51, 159, 183, 0.61);
+	outline:none;
+	border:none;
+	margin:0  0 50px 42px;
+
+}
+#adminArea h3{
+	text-align:center;
+}
+#rBooks input[type~="text"]{
+	width:67%;
+	margin:0 0 3px 10px;
+	font-size:15px;
+}
+#rBooks input[type~="submit"]{
+	width:28%;
+	font-size:20px;
+	margin:0 0 3px 10px;
+}
+
+#displayArea2{
+	font-size:20px;
+	list-style:none;
+}
+
+#trash{
+	background:#e74c3c;
+	height:40px;
+	margin-right:20px;
+	text-align:center;
+	color:white;
+	width:0;
+	display:inline-block;
+	transition:0.2s linear;
+	opacity:0;
+}
+li:hover #trash{
+	width:40px;
+	opacity:1.0;
+}
+#togCatalog{
+	width:100%;
+}
+#adminBtn{
+	width:100%;
+}

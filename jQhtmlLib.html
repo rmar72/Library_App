@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dev's Lib</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="assets/css/stylesLib.css"/>
+		<link rel="stylesheet" href="assets/css/lib/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+	</head>
+
+	<body>
+
+		<div id="searchArea">
+
+			<h3>Search Catalog</h3>
+			<div id="sTitles">
+				<input type="text" placeholder="Title Keyword" />
+				<input type="Submit" id="getTitles" value="Search"/>
+			</div>
+
+			<div id="sAuthors">
+				<input type="text" placeholder="Author Keyword" />
+				<input type="Submit" id="getAuthors" value="Search" />
+			</div>
+
+		</div>
+
+		<div class="container-fluid">
+
+			<div id="miscArea">
+				<button id="randomBook">Random <span class="glyphicon glyphicon-book"></span></button>
+				<button id="randomAuthor">Random <span class="glyphicon glyphicon-user"></span></button>
+				<button id="getDistinctAuthors">Distinct Authors</button>
+			</div>
+
+			<div class="jumbotron">
+
+				<div class="row">
+
+					<div class="col-lg-12">
+						<div class="row">
+
+							<div class="col-lg-8 col-md-9 col-sm-6">
+								<button id="togCatalog">Hide Library</button>
+								<ul id="displayArea2">
+
+								</ul>
+							</div>
+
+							<div class="col-lg-4 col-md-3 col-sm-6">
+								<ul id="displayArea">
+
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="col-lg-8 col-md-9 col-sm-6" >
+						<button id="adminBtn" >Hide Admin Features</button>
+						<div class="admin">
+							<ul id="adminArea">
+								<h3>Add Book(s) <button id="moreBooks"><i class="fa fa-plus fa-1x" aria-hidden="true"></i></button></h3>
+
+								<li class="aBooks">
+									<input type="text" placeholder="Title"/>
+									<input type="text" placeholder="Author"/>
+									<input type="text" placeholder="Num. Pages"/>
+									<input type="text" placeholder="Publish Date"/>
+									<i class="fa fa-minus" aria-hidden="true" id="litrash"></i>
+								</li>
+
+							</ul>
+							<div>
+								<input class="addMultiple" type="submit" value="Add Book(s)" />
+							</div>
+
+
+							<div id="rBooks">
+								<div id="booksRemoval1">
+									<input type="text" placeholder="Remove Book By Title" />
+									<input id="rBookByTitle" class="btn-danger" type="Submit" value="Delete"/>
+								</div>
+
+								<div id="booksRemoval2">
+									<input type="text" placeholder="Remove Book(s) By Author" />
+									<input id="rBooksByAuthor" class="btn-danger" type="Submit" value="Delete"/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<script src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
+		<script src="assets/javascript/app.js"></script>
+		<script>
+			var arr=[1,2,3,4,5], arr2=[];
+
+			function test(param){
+				for(var i=arr.length-1; i>=0; i--){
+					arr2.push()
+				}
+			}
+		</script>
+	</body>
+
+</html>
